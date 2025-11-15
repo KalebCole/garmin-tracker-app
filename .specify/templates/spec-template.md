@@ -82,6 +82,16 @@
   Fill them out with the right functional requirements.
 -->
 
+### Constitution Compliance (mandatory)
+- Each feature MUST list which constitution principles it affects (select from:
+  Garmin-First; One Data Model; Local-First; Simple State Machines;
+  Minimal Surface Area).
+- Features that violate any non-negotiable rule (e.g., Simplicity Gate,
+  Local-First requirement) MUST include an explicit amendment request and a
+  migration/mitigation plan.
+- Acceptance criteria MUST include checks that are testable against the
+  principle (e.g., interaction counts, offline behavior, schema field presence).
+
 ### Functional Requirements
 
 - **FR-001**: System MUST [specific capability, e.g., "allow users to create accounts"]

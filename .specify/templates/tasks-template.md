@@ -44,6 +44,15 @@ description: "Task list template for feature implementation"
   ============================================================================
 -->
 
+## Constitution Compliance
+
+**Purpose**: Ensure all tasks and work items reference constitution gates
+and include explicit compliance checks where applicable.
+
+- [ ] TCON-001 Add Constitution Check entry to plan.md for this feature
+- [ ] TCON-002 Add PR checklist items referencing affected principles
+- [ ] TCON-003 Attach state-machine diagrams for flows touching watch UI
+
 ## Phase 1: Setup (Shared Infrastructure)
 
 **Purpose**: Project initialization and basic structure

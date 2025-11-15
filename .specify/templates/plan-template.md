@@ -31,7 +31,16 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Constitution gates to evaluate (feature MUST explicitly address each gate):
+- Garmin-First: Does the feature preserve or improve logging speed and reduce
+  interaction steps? (pass/fail; evidence required)
+- One Data Model: Does the feature preserve the canonical schema or include a
+  migration plan for schema changes? (pass/fail; migration plan required)
+- Local-First: Can the primary user flows operate with no network? (pass/fail)
+- Simple State Machines: Are state transitions fully specified with a diagram?
+  (pass/fail; attach diagram)
+- Minimal Surface Area: Does the change add UI or model surface area beyond
+  MVP scope? (pass/fail; justification required)
 
 ## Project Structure
 
